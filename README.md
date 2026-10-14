@@ -1,31 +1,68 @@
-# Saloumna | سلومنا 🇸🇦
+# Saloumna | سلومنا
 
-An interactive Saudi-themed educational game built with **Next.js 14**, **React**, **TypeScript**, **Tailwind CSS**, **Framer Motion**, and **Zustand**.
+**An interactive exploration of Saudi culture through playful digital experiences.**
 
-## Features
-- Interactive map of Saudi regions
-- Region-based mini-games and challenges
-- In-game coins, unlockable regions, and shop
-- Progress saved locally with Zustand
+**Stack:** Next.js 14 · React · TypeScript · Tailwind CSS · Framer Motion · Zustand
 
-## Run locally
+---
+
+## Overview
+
+Saloumna is a Saudi-themed educational web game built around regional exploration, interactive challenges, and playful progression. The project combines frontend engineering, motion design, and game-state management in a culturally inspired experience.
+
+## Experience highlights
+
+- **Explore Saudi regions:** Navigate an interactive map and discover region-based content.
+- **Play mini-games:** Engage with themed activities and challenges.
+- **Track progress:** Unlock regions and manage in-game coins.
+- **Discover rewards:** Interact with the in-game shop.
+- **Meet Saloum:** Character illustrations support the playful visual identity.
+
+## Engineering approach
+
+| Area | Implementation |
+| --- | --- |
+| Application framework | Next.js 14 and React |
+| Language | TypeScript |
+| Styling | Tailwind CSS |
+| Animation | Framer Motion |
+| State management | Zustand |
+| Content | Region and shop data modules |
+
+## Getting started
+
+**Prerequisite:** Node.js and npm.
 
 ```bash
 npm install
 npm run dev
 ```
 
-Then visit http://localhost:3000.
+Open **http://localhost:3000** in your browser.
 
-## Project structure
-- `app/` — pages and routing
-- `components/` — mini-games, map, and UI
-- `data/` — region and shop content
-- `store/` — saved game progress
-- `utils/` — helpers and sound
-- `public/assets/saloum/` — character images
+## Repository structure
 
-## Asset status
-All four Saloum character PNG assets are uploaded in `public/assets/saloum/`.
+```text
+app/                 Next.js routes and pages
+components/          UI and mini-games
+data/                Region and shop data
+store/               Game state
+utils/               Shared helpers
+public/assets/saloum/ Character illustrations
+```
 
-Do not commit `node_modules`, `.next`, secrets, or `.env` files.
+## What this project demonstrates
+
+- Component-based frontend architecture
+- Interactive user experience design
+- Type-safe application development
+- Client-side game state and progression
+- Integration of animation and visual assets
+
+## Project status
+
+The source and four Saloum character PNG assets are included in this repository. **A production build and end-to-end gameplay have not been independently verified.**
+
+---
+
+*Culture, technology, and play—brought together in one interactive experience.*
