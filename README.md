@@ -23,9 +23,9 @@ Then visit http://localhost:3000.
 - `data/` — region and shop content
 - `store/` — saved game progress
 - `utils/` — helpers and sound
-- `public/assets/saloum/` — character images (pending upload)
+- `public/assets/saloum/` — character images
 
 ## Asset status
-Four Saloum character PNG assets still need to be uploaded under `public/assets/saloum/`: `celebrating.png`, `pointing.png`, `talking.png`, `thinking.png`. The UI may show missing images until these are added.
+All four Saloum character PNG assets are uploaded in `public/assets/saloum/`.
 
 Do not commit `node_modules`, `.next`, secrets, or `.env` files.
