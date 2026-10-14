@@ -1,24 +1,31 @@
-# Saloumna (سلومنا)
+# Saloumna | سلومنا 🇸🇦
 
-An interactive game project built with Next.js.
+An interactive Saudi-themed educational game built with **Next.js 14**, **React**, **TypeScript**, **Tailwind CSS**, **Framer Motion**, and **Zustand**.
 
-## Project status
-The repository has been initialized. **The full original application source code and assets have not yet been uploaded or verified.**
+## Features
+- Interactive map of Saudi regions
+- Region-based mini-games and challenges
+- In-game coins, unlockable regions, and shop
+- Progress saved locally with Zustand
 
-## Technology
-- Next.js
-- React
-- JavaScript / TypeScript (depending on the original source)
-
-## Development
-Once the application files are present:
+## Run locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open http://localhost:3000.
+Then visit http://localhost:3000.
 
-## Note
-Do not commit `.env` files, API keys, `node_modules`, or `.next` build output.
+## Project structure
+- `app/` — pages and routing
+- `components/` — mini-games, map, and UI
+- `data/` — region and shop content
+- `store/` — saved game progress
+- `utils/` — helpers and sound
+- `public/assets/saloum/` — character images (pending upload)
+
+## Asset status
+Four Saloum character PNG assets still need to be uploaded under `public/assets/saloum/`: `celebrating.png`, `pointing.png`, `talking.png`, `thinking.png`. The UI may show missing images until these are added.
+
+Do not commit `node_modules`, `.next`, secrets, or `.env` files.
